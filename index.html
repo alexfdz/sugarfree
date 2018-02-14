@@ -5,85 +5,74 @@
     <meta charset="utf-8">
     <title>sugar-free pharmacies</title>
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      .controls {
-        margin-top: 10px;
-        border: 1px solid transparent;
-        border-radius: 2px 0 0 2px;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        height: 32px;
-        outline: none;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-      }
-
-      #pac-input {
-        background-color: #fff;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-        margin-left: 12px;
-        padding: 0 11px 0 13px;
-        text-overflow: ellipsis;
-        width: 300px;
-      }
-
-      #pac-input:focus {
-        border-color: #4d90fe;
-      }
-
-      .pac-container {
-        font-family: Roboto;
-      }
-
-      #type-selector {
-        color: #fff;
-        background-color: #4d90fe;
-        padding: 5px 11px 0px 11px;
-      }
-
-      #type-selector label {
-        font-family: Roboto;
-        font-size: 13px;
-        font-weight: 300;
-      }
-      #target {
-        width: 345px;
-      }
+     
     </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgauIymwTL1ii1wrAtSvw_JsrK3EwsLjA&libraries=places"></script>
+    <script src="lib/geolocation-marker.js"></script>
+    <script src="lib/custom-controls.js"></script>
+    <script src="lib/geoxml3.js"></script>
   </head>
   <body>
     <input id="pac-input" class="controls" type="text" placeholder="Search Box">
     <div id="map"></div>
      <script>
-      function initAutocomplete() {
+      var chicago = {lat: 41.85, lng: -87.65};
 
+      function initialize() {
           var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 11,
             center: {lat: 41.876, lng: -87.624},
-            mapTypeId: 'roadmap'
+            mapTypeId: 'roadmap',
+            fullscreenControl: false
           });
 
           addPharmacies(map);
           addSearchBox(map);
-          addGeoloaction(map);
+          addGeoMarker(map);
+          
+          var addPharmacyControl = new CustomControl(function() {
+            map.setCenter(chicago);
+          }, 'add_circle_outline', 'Add pharmacy');
+          
+          var helpControl = new CustomControl(function() {
+            map.setCenter(chicago);
+          }, 'help_outline', 'About');
+
+          map.controls[google.maps.ControlPosition.RIGHT_TOP].push(addPharmacyControl);
+          map.controls[google.maps.ControlPosition.RIGHT_TOP].push(helpControl);
       }
 
       function addPharmacies(map){
+        // var myParser = new geoXML3.parser({map: map});
+        // myParser.parse('/map.kml');
+
+        // new google.maps.KmlLayer({
+        //   url: 'http://www.google.com/maps/d/kml?forcekml=1&mid=1EuRe6t_OkiYeVYMqMfQS5PtUgesTRemk&lid=LGC5EbfQCs0&t=' + Date.now(),
+        //   map: map
+        // });
+
         new google.maps.KmlLayer({
-          url: 'http://www.google.com/maps/d/kml?forcekml=1&mid=1EuRe6t_OkiYeVYMqMfQS5PtUgesTRemk',
+          url: 'http://sugarfree.io/map.kml&t=' + Date.now(),
           map: map
         });
+      }
+
+      function addGeoMarker(map){
+         var geoMarker = new GeolocationMarker();
+          geoMarker.setCircleOptions({fillColor: '#808080'});
+
+          google.maps.event.addListenerOnce(geoMarker, 'position_changed', function() {
+            map.setCenter(this.getPosition());
+            map.fitBounds(this.getBounds());
+          });
+
+          google.maps.event.addListener(geoMarker, 'geolocation_error', function(e) {
+            alert('There was an error obtaining your position. Message: ' + e.message);
+          });
+
+          geoMarker.setMap(map);
       }
 
       function addSearchBox(map){
@@ -146,38 +135,8 @@
           map.fitBounds(bounds);
         });
       }
-      function addGeoloaction(map){
-        var infoWindow = new google.maps.InfoWindow({map: map});
 
-          // Try HTML5 geolocation.
-          if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position) {
-              var pos = {
-                lat: position.coords.latitude,
-                lng: position.coords.longitude
-              };
-
-              infoWindow.setPosition(pos);
-              infoWindow.setContent('Location found.');
-              map.setCenter(pos);
-            }, function() {
-              handleLocationError(true, infoWindow, map.getCenter());
-            });
-          } else {
-            // Browser doesn't support Geolocation
-            handleLocationError(false, infoWindow, map.getCenter());
-          }
-      }
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-      }
-
+      google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgauIymwTL1ii1wrAtSvw_JsrK3EwsLjA&libraries=places&callback=initAutocomplete"
-         async defer></script>
   </body>
 </html>
