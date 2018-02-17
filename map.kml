@@ -82,51 +82,34 @@
       </Pair>
     </StyleMap>
     <Folder>
-      <name>Untitled layer</name>
+      <name>pharmacies</name>
       <Placemark>
-        <name>Farmàcia MARIA COSP</name>
-        <description>bla bla</description>
+        <name>Ana María Domínguez García</name>
+        <description><![CDATA[Paseo Sant Gervasi, 75, 08022 Barcelona, España<br>+34 934 17 92 91]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            1.84635630000002,42.0987789,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmàcia Alvarez Saz</name>
-        <description>eeee</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            1.84360670000001,42.099236,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Torres</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.15923199999997,41.388591,0
+            2.13794,41.4126,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[https://www.google.com/search?q=Farmacia%20Carrer%20de%20Judea%2C%201%2C%2008035%20Barcelona%2C%20Espa%C3%B1a&ludocid=15848538719178700986&client=dist-google-maps-apiv3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            -3.6933669,40.4300783,0
+            2.1410923,41.4248355,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <name>Farmacia Vilas Masó</name>
+        <description><![CDATA[Avinguda república argentina 270, 08023 Barcelona<br>www.farmaciaannavilas.com<br>+34 934 17 30 45]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            -0.870362800000066,41.6396078,0
+            2.1385148,41.4136897,0
           </coordinates>
         </Point>
       </Placemark>
