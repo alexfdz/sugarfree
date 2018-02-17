@@ -81,21 +81,11 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+        <Folder>
       <name>pharmacies</name>
       <Placemark>
-        <name>Ana María Domínguez García</name>
-        <description><![CDATA[<div class="OzwZjf-jRmmHf-MZArnb-G0jgYd fO2voc-jRmmHf-LJTIlf"><div class="fO2voc-jRmmHf-MZArnb-r4nke">Detalles de Google Maps</div><div>Passeig de Sant Gervasi, 75, 08022 Barcelona</div><div><a href="https://maps.google.com/?q=Passeig+de+Sant+Gervasi,+75,+08022+Barcelona&amp;ftid=0x12a498059f6b81a7:0x3f69b9acefd04e2c" target="_blank">Ver en Google Maps</a></div></div>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            2.13794,41.4126,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=15848538719178700986" target="_blank">Ver en Google Maps</a>]]></description>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15848538719178700986" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
@@ -104,12 +94,22 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Vilas Masó</name>
-        <description><![CDATA[Avinguda república argentina 270, 08023 Barcelona<br>www.farmaciaannavilas.com<br>+34 934 17 30 45]]></description>
+        <name>Ana María Domínguez García</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=3265587234235336506" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            2.1385148,41.4136897,0
+            2.13793999999996,41.4126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Vilas Masó</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=14804022115887059001" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.13851479999994,41.4136897,0
           </coordinates>
         </Point>
       </Placemark>
