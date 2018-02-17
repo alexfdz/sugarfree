@@ -95,7 +95,7 @@
       </Placemark>
       <Placemark>
         <name>Farmacia</name>
-        <description><![CDATA[https://www.google.com/search?q=Farmacia%20Carrer%20de%20Judea%2C%201%2C%2008035%20Barcelona%2C%20Espa%C3%B1a&ludocid=15848538719178700986&client=dist-google-maps-apiv3]]></description>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15848538719178700986" target="_blank">Ver en Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
