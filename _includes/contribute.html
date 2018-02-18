@@ -1,0 +1,52 @@
+
+    <section id="contribute">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contribuir</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-8 col-lg-offset-2">
+                    <form  action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contributeForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Direcci&#x00F3;n de la farmacia</label>
+                                <input type="text" name="address" class="form-control" placeholder="Direcci&#x00F3;n de la farmacia" id="address-contribute" required data-validation-required-message="Por favor, escribe la direcci&#x00F3;n de la farmacia.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="col-xs-12 floating-label-form-group controls">
+                                <fieldset>
+                                  <div class="form-group" style="margin-top: 15px;">
+                                    <div class="custom-control custom-radio">
+                                      <input type="radio" id="no-homeopathy-contribute" name="homeopathy-contribute" value="no-homeopathy" class="custom-control-input" checked="">
+                                      <span class="custom-control-label" for="customRadio1"><b>No</b> recomiendan activamente homeopatía</span>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                      <input type="radio" id="yes-homeopathy-contribute" name="homeopathy-contribute"  value="yes-homeopathy" class="custom-control-input">
+                                      <span class="custom-control-label" for="customRadio2">Recomiendan activamente homeopatía</span>
+                                    </div>
+                                  </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="hidden"  name="_subject" value="sugarfree contribution">
+                            <input type="hidden" name="_next" value="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+                            <input type="text" name="_gotcha" style="display:none" />
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
