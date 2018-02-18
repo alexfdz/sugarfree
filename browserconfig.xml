@@ -4,7 +4,7 @@
     <tile>
       <square70x70logo src="img/favicon/favicon-70.png"/>
       <square150x150logo src="img/favicon/favicon-150.png"/>
-      <square310x310logo src="img/favicon/favicon-310.png"/>
+      <square310x310logo src="img/favicon-310/favicon-310.png"/>
       <TileColor>#FFFFFF</TileColor>
     </tile>
   </msapplication>
