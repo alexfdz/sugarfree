@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "sugarfree-font";
+  src:url("fonts/sugarfree-font.eot");
+  src:url("fonts/sugarfree-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/sugarfree-font.woff") format("woff"),
+    url("fonts/sugarfree-font.ttf") format("truetype"),
+    url("fonts/sugarfree-font.svg#sugarfree-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "sugarfree-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "sugarfree-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i.icon-sugarfree:before {
+  content: "\62";
+}
+
+hr.icon-sugarfree,
+hr.icon-sugarfree-dark {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.icon-sugarfree:after,
+hr.icon-sugarfree-dark:after {
+    content: "\62";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: "sugarfree-font" !important;
+    font-size: 3em;
+    background-color: #18bc9c;
+}
+
+hr.icon-sugarfree:after {
+    background-color: #18bc9c;
+}
+
+hr.icon-sugarfree-dark:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+hr.icon-sugarfree {
+    border-color: #fff;
+}
+
+hr.icon-sugarfree-dark {
+    border-color: #2c3e50;
+}

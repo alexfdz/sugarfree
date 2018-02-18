@@ -60,3 +60,16 @@ header .controls {
 #target {
 	width: 345px;
 }
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
+.nav-text {
+    padding-top: 5px;
+}
+
+.navbar-brand{
+	display: inline-flex;
+}
