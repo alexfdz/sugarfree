@@ -99,7 +99,7 @@
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            2.13793999999996,41.4126,0
+            2.13794,41.4126,0
           </coordinates>
         </Point>
       </Placemark>
@@ -109,7 +109,7 @@
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            2.13851479999994,41.4136897,0
+            2.1385148,41.4136897,0
           </coordinates>
         </Point>
       </Placemark>
@@ -125,11 +125,21 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Escudero Garcia</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=15747537917573548096" target="_blank">View in Google Maps</a>]]></description>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15747537917573548096" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             2.1405359,41.375136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Centre D'especifics Farmácia]]></name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9457122760966832466" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.2036875,41.4176686,0
           </coordinates>
         </Point>
       </Placemark>
