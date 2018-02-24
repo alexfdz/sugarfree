@@ -143,6 +143,96 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Rubén Queimaño Costas</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7865870775641359564" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -9.182636,43.131317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ronda58</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5117341255641302034" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -8.4164734,43.3702162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Farmacia "García de Bikuña Landa"]]></name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9685362994394802045" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.9516653,43.2719203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9713837487366782508" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -5.8597607,37.3257048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Núñez</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4406587347794442486" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -6.0529772,42.4548222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Vizcaíno</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1450078283003087942" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -6.753676,37.5729241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Andres Jaume</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=18337620595877539492" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.6783689,39.5994362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia El Verger, Ldo. Ricardo Baquero</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8116632771104590447" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.008504,38.843362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Rey Torres</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11048682949375678852" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -8.224709,43.483893,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
