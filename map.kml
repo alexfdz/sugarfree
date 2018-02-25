@@ -8,7 +8,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.svg</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -21,7 +21,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.svg</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -44,7 +44,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.svg</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -60,7 +60,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.svg</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
