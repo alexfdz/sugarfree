@@ -79,3 +79,7 @@ header .controls {
 .navbar-brand{
 	display: inline-flex;
 }
+
+.fa-search{
+	transform: rotate(90deg);
+}
