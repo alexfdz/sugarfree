@@ -1,7 +1,7 @@
 
 function addPharmacies(map) {
     new google.maps.KmlLayer({
-        url: 'https://alexfdz.github.io/sugarfree/map.kml?t=' + Date.now(),
+        url: 'https://sugarfree.io/map.kml?t=' + Date.now(),
         map: map,
         preserveViewport: true
     });
