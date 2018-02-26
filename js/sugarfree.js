@@ -100,10 +100,11 @@ function setupContributeForm(){
 
 google.maps.event.addDomListener(window, 'load', function() {
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
+        zoom: 5,
         mapTypeId: 'roadmap',
         mapTypeControl: false,
-        fullscreenControl: false
+        fullscreenControl: false,
+        center: new google.maps.LatLng(40.416721, -3.703460)
     });
 
     addPharmacies(map);
