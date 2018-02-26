@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+  <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -230,6 +230,16 @@
         <Point>
           <coordinates>
             -8.224709,43.483893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Fernando Rodríguez Garfia</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13792676544366297950" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -8.344459,43.3471706,0
           </coordinates>
         </Point>
       </Placemark>
