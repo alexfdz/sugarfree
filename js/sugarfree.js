@@ -17,6 +17,7 @@ function addGeoMarker(map) {
     });
 
     google.maps.event.addListener(geoMarker, 'geolocation_error', function(e) {
+        ga('send', 'event', 'map', 'geolocation_error', e.message);
         alert('There was an error obtaining your position. Message: ' + e.message);
     });
 
@@ -55,6 +56,7 @@ function addSearchBox(map) {
         places.forEach(function(place) {
             if (!place.geometry) {
                 console.log("Returned place contains no geometry");
+                ga('send', 'event', 'map', 'search_error', "no geometry");
                 return;
             }
             var icon = {
@@ -81,6 +83,7 @@ function addSearchBox(map) {
             }
         });
         map.fitBounds(bounds);
+        ga('send', 'event', 'map', 'search');
     });
 
     input.style.display = 'block';
