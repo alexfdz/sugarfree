@@ -18,7 +18,6 @@ function addGeoMarker(map) {
 
     google.maps.event.addListener(geoMarker, 'geolocation_error', function(e) {
         ga('send', 'event', 'map', 'geolocation_error', e.message);
-        alert('There was an error obtaining your position. Message: ' + e.message);
     });
 
     geoMarker.setMap(map);
