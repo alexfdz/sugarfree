@@ -17,7 +17,10 @@ function addGeoMarker(map) {
     });
 
     google.maps.event.addListener(geoMarker, 'geolocation_error', function(e) {
-        ga('send', 'event', 'map', 'geolocation_error', e.message);
+        gtag('event', 'error', {
+            'event_category' : 'geolocation',
+            'event_label': e.message,
+        });
     });
 
     geoMarker.setMap(map);
@@ -82,7 +85,9 @@ function addSearchBox(map) {
             }
         });
         map.fitBounds(bounds);
-        ga('send', 'event', 'map', 'search');
+        gtag('event', 'search', {
+            'event_category' : 'map'
+        });
     });
 
     input.style.display = 'block';
@@ -105,4 +110,14 @@ google.maps.event.addDomListener(window, 'load', function() {
     addSearchBox(map);
     addGeoMarker(map);
     setupContributeForm();
+
+    jQuery(function() {
+      jQuery.scrollDepth({
+            percentage: false,
+            elements: ['#map', '#about', '#contribute', '#contact', '#footer'],
+            eventHandler: function(data) {
+                console.log(data)
+            }
+        });
+    });
 });
