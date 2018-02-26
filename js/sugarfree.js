@@ -110,14 +110,4 @@ google.maps.event.addDomListener(window, 'load', function() {
     addSearchBox(map);
     addGeoMarker(map);
     setupContributeForm();
-
-    jQuery(function() {
-      jQuery.scrollDepth({
-            percentage: false,
-            elements: ['#map', '#about', '#contribute', '#contact', '#footer'],
-            eventHandler: function(data) {
-                console.log(data)
-            }
-        });
-    });
 });
