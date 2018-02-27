@@ -83,3 +83,7 @@ header .controls {
 .fa-search{
 	transform: rotate(90deg);
 }
+
+.help {
+    font-size: 15px;
+}
