@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-  <Folder>
+ <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -240,6 +240,56 @@
         <Point>
           <coordinates>
             -8.344459,43.3471706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia La Barbera</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15502132119155179276" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.2297006,38.5093706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Luis García Doncel y García</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11385933789791977924" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9728817,38.867326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy guard 12 hours Rosalía Chacón</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13955339319947284699" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9945661,38.8828813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Alarcón 24 horas</name>
+        <description><![CDATA[<a href="https://www.google.com/maps/place/Farmacia+Alarc%C3%B3n+24+horas/@38.8671809,-6.9825893,19z/data=!4m11!1m5!8m4!1e1!2s101456513316913038871!3m1!1e1!3m4!1s0xd16e42170259783:0x6c47e66ba53ce34!8m2!3d38.8672247!4d-6.9821127" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9821127,38.8672247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Ldo Carlos Martínez De Medinilla</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=17166569297568227256" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9870298,38.8675225,0
           </coordinates>
         </Point>
       </Placemark>
