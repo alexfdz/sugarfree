@@ -10,7 +10,9 @@ function addPharmacies(map) {
 function addGeoMarker(map) {
     var geoMarker = new GeolocationMarker();
     geoMarker.setCircleOptions({ fillColor: '#808080' });
-
+    gtag('event', 'init', {
+        'event_category' : 'geolocation'
+    });
     google.maps.event.addListenerOnce(geoMarker, 'position_changed', function() {
         map.setCenter(this.getPosition());
         map.fitBounds(this.getBounds());
