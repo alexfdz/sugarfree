@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
- <Folder>
+<Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -300,6 +300,26 @@
         <Point>
           <coordinates>
             -0.8270442,41.6668683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Carmen Eijo Rego</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11085694676034802533" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -5.668988,43.521468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmàcia Basté</name>
+        <description><![CDATA[<a href="https://www.google.com/search?q=Farm%C3%A0cia%20Bast%C3%A9%20Carrer%20de%20Rogent%2C%2054%2C%2008026%20Barcelona%2C%20Spain&amp;ludocid=13875823118122489845&amp;client=dist-google-maps-apiv3" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1842127,41.4095775,0
           </coordinates>
         </Point>
       </Placemark>
