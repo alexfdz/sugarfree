@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-<Folder>
+    <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -320,6 +320,26 @@
         <Point>
           <coordinates>
             2.1842127,41.4095775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Rialto</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=16791779305083865497" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.7074767,40.4214934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmàcia Miravitlles Gultresa</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7869903716709087549" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1984714,41.4151776,0
           </coordinates>
         </Point>
       </Placemark>
