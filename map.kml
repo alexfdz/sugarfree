@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+   <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -340,6 +340,26 @@
         <Point>
           <coordinates>
             2.1984714,41.4151776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Crecente</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=16683738703320832110" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -8.223898,42.151713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Ferrerons Vidal, M Dolores - Rodríguez Ferrerons, Patricia</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15127657090037282276" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -4.7433257,41.6551143,0
           </coordinates>
         </Point>
       </Placemark>
