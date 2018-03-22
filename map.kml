@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-   <Folder>
+     <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -360,6 +360,26 @@
         <Point>
           <coordinates>
             -4.7433257,41.6551143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Alibes</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=3688441059273716285" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1667924,41.3934145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia gimeno pinies</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=6362169959301003777" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1595785,41.3896147,0
           </coordinates>
         </Point>
       </Placemark>
