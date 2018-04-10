@@ -134,16 +134,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Centre D'especifics Farmácia]]></name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=9457122760966832466" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            2.2036875,41.4176686,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Rubén Queimaño Costas</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=7865870775641359564" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
@@ -544,16 +534,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Pilar Álvarez Ballesteros</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=8077738672067457487" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -3.9357595,38.972272,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Martínez Alvarez</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=1252303515927108679" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
@@ -720,6 +700,16 @@
         <Point>
           <coordinates>
             2.1263825,41.3838884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moreu Reñé, Xavier</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5979971479726451588" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.198543,41.413598,0
           </coordinates>
         </Point>
       </Placemark>
