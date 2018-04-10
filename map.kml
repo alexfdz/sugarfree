@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+      <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -290,16 +290,6 @@
         <Point>
           <coordinates>
             -0.8270442,41.6668683,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Carmen Eijo Rego</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=11085694676034802533" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -5.668988,43.521468,0
           </coordinates>
         </Point>
       </Placemark>
