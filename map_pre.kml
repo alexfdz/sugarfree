@@ -44,32 +44,26 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker_disabled.png</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
     <Style id="icon-1899-DB4436-nodesc-highlight">
       <IconStyle>
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker_disabled.png</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
     <StyleMap id="icon-1899-DB4436-nodesc">
       <Pair>
@@ -1168,7 +1162,7 @@
         </Point>
       </Placemark>
        <Placemark>
-        <name>Farmacia Monje en Santa Cruz 2</name>
+        <name>Farmacia Monje en Santa Cruz 3</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=7865870775641359564" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
