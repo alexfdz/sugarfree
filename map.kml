@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-<Folder>
+    <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -700,16 +700,6 @@
         <Point>
           <coordinates>
             2.198543,41.413598,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Alberto Granja Bargados</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=1487934455748240989" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -8.1194957,42.6527573,0
           </coordinates>
         </Point>
       </Placemark>
