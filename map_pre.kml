@@ -44,7 +44,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker_disabled.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -57,7 +57,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
+          <href>https://www.sugarfree.io/img/sugarfree_marker_disabled.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -1162,7 +1162,7 @@
         </Point>
       </Placemark>
        <Placemark>
-        <name>Farmacia Monje en Santa Cruz 3</name>
+        <name>Farmacia Monje en Santa Cruz 4</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=7865870775641359564" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
