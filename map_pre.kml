@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>sugar-free</name>
-    <description/>
+    <description/> 
     <Style id="icon-1899-DB4436-normal">
       <IconStyle>
         <color>ff3644db</color>
@@ -75,6 +75,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -717,6 +718,9 @@
           </coordinates>
         </Point>
       </Placemark>
+    </Folder>
+    <Folder>
+      <name>pharmacies (pending)</name>
       <Placemark>
         <name>Farmacia Pilar Álvarez Ballesteros</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
@@ -1161,19 +1165,6 @@
           </coordinates>
         </Point>
       </Placemark>
-       <Placemark>
-        <name>Farmacia Monje en Santa Cruz 4</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=7865870775641359564" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -16.2582576,28.4625126,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>other</name>
       <Placemark>
         <name>Farmacia</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
@@ -1198,6 +1189,15 @@
         <Point>
           <coordinates>
             -4.12534489999996,40.4677854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Monje en Santa Cruz</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -16.2582576,28.4625126,0
           </coordinates>
         </Point>
       </Placemark>
