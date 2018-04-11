@@ -723,9 +723,6 @@
           </coordinates>
         </Point>
       </Placemark>
-    </Folder>
-    <Folder>
-      <name>pharmacies (pending)</name>
       <Placemark>
         <name>Farmacia Pilar Álvarez Ballesteros</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
