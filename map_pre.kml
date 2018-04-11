@@ -1167,6 +1167,9 @@
           </coordinates>
         </Point>
       </Placemark>
+    </Folder>
+    <Folder>
+      <name>other</name>
       <Placemark>
         <name>Farmacia</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
