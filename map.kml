@@ -724,6 +724,36 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Segon Cucurull, M. Immaculada</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=17969935860904693691" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.153318,41.3944943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marta Monzó Gruart</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=12826758760804245503" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1430003,41.3782079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmàcia Romero Gisbert</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2842268549115594564" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1989034,41.409422,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
@@ -733,15 +763,6 @@
         <Point>
           <coordinates>
             -3.93575950000002,38.972272,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Marta Monzó Gruart</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.14300030000004,41.3782079,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1312,6 +1333,33 @@
         <Point>
           <coordinates>
             -0.358970099999965,39.4897133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Farmacia "Sanz Díaz de Durana Maieder Asier"]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.67136300000004,42.849433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FARMACIA LA PAZ (Moisés Ferrández Martínez)</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.87604609999994,41.6240032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Lcda. Hortensia García Peleteiro</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.79918050000003,42.346937,0
           </coordinates>
         </Point>
       </Placemark>
