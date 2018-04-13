@@ -1363,6 +1363,15 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmàcia Gran Vía</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.19477119999999,41.4086363,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
