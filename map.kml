@@ -81,7 +81,6 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -754,69 +753,65 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia Pilar Álvarez Ballesteros</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8077738672067457487" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.9357595,38.972272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. de la Mar, 20</name>
+        <description><![CDATA[<a href="https://maps.google.com/?q=Av.+de+la+Mar,+20,+46713+Bellreguard,+Valencia&amp;ftid=0xd61e8628ca02ac7:0x70be00fa67b7029" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.1609157,38.9470567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Muñoz Calvo</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5977872965011439604" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -5.6526859,40.968046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia López Rodríguez</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8031550913939505712" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.703899,40.451047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Mercedes García-Morato Soto</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=12188584348288328809" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.6624027,40.482099,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
-      <Placemark>
-        <name>Farmacia Pilar Álvarez Ballesteros</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.93575950000002,38.972272,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Palacios</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -1.70125259999998,38.5131245,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Maria Jose Llorca Llorca</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.160915700000032,38.9470567,0
-          </coordinates>
-        </Point>
-      </Placemark>
       <Placemark>
         <name>Farmacia Petra Aguirre</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             -1.78159419999997,43.3407155,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Muñoz Calvo</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -5.65268590000005,40.968046,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia López Rodríguez</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.70389899999998,40.451047,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Mercedes García-Morato Soto</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.66240270000003,40.482099,0
           </coordinates>
         </Point>
       </Placemark>
@@ -830,29 +825,11 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Fuentelucha</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.65944969999998,40.5529501,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Esteban Lázaro María Asunción</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             -3.7020632,40.4561096,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Sánchez Martín, Irene</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -4.44908399999997,43.001205,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1369,6 +1346,24 @@
         <Point>
           <coordinates>
             2.19477119999999,41.4086363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Farmacia "Navarro Sánchez"]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.68009170000005,42.8759162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmazia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.65910170000006,42.8558145,0
           </coordinates>
         </Point>
       </Placemark>
