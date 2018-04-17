@@ -946,7 +946,7 @@
       <Placemark>
         <name>Carrer del Túria, 57</name>
         <description><![CDATA[Calle TURIA, 57 BAJO IZ., 46008 (Valencia)<br>Tel: 963910626]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             -0.3854584,39.4773435,0
