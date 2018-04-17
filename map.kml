@@ -81,6 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -1364,6 +1365,24 @@
         <Point>
           <coordinates>
             -2.65910170000006,42.8558145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Andrea López</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.12534170000004,41.3720729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Palacios</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.70125259999998,38.5131245,0
           </coordinates>
         </Point>
       </Placemark>
