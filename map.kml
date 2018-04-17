@@ -81,7 +81,6 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -804,6 +803,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia Martínez Sánchez</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11696810852622129648" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3589701,39.4897133,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
@@ -1306,15 +1315,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Martínez Sánchez</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.358970099999965,39.4897133,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name><![CDATA[Farmacia "Sanz Díaz de Durana Maieder Asier"]]></name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
@@ -1383,6 +1383,15 @@
         <Point>
           <coordinates>
             -1.70125259999998,38.5131245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Urretavizcaya González M Teresa</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.98133510000002,43.3189282,0
           </coordinates>
         </Point>
       </Placemark>
