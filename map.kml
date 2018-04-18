@@ -80,8 +80,7 @@
         <key>highlight</key>
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
-    </StyleMap>
-    <Folder>
+    </StyleMap>    <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -1437,6 +1436,15 @@
         <Point>
           <coordinates>
             -3.36831099999995,40.481311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia On</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.677043700000013,38.2769318,0
           </coordinates>
         </Point>
       </Placemark>
