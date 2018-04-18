@@ -813,6 +813,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Javier Chamarro Baños</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1492947263700845042" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3336892,39.9516542,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
@@ -940,16 +950,6 @@
         <Point>
           <coordinates>
             -3.02583800000002,39.310568,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Carrer del Túria, 57</name>
-        <description><![CDATA[Calle TURIA, 57 BAJO IZ., 46008 (Valencia)<br>Tel: 963910626]]></description>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.3854584,39.4773435,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1252,15 +1252,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>López Conca C B</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.333689199999981,39.9516542,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Pablo de la Torre</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
@@ -1392,6 +1383,60 @@
         <Point>
           <coordinates>
             -1.98133510000002,43.3189282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrer del Túria, 57</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.385458400000061,39.4773435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Fernández García</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.7871136,37.8882673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Asensi Alcoverro</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.403155200000015,39.4532334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia CENTRAL de Pinos Puente</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.75017249999996,37.2514762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmàcia M. Angels Comas Anyé</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.19205290000002,41.4079254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Chamorro</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.36831099999995,40.481311,0
           </coordinates>
         </Point>
       </Placemark>
