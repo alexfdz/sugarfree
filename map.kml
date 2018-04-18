@@ -80,7 +80,8 @@
         <key>highlight</key>
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
-    </StyleMap>    <Folder>
+    </StyleMap>
+     <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -819,6 +820,16 @@
         <Point>
           <coordinates>
             -0.3336892,39.9516542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Senyera</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=16617006720192509235" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3635384,39.458557,0
           </coordinates>
         </Point>
       </Placemark>
