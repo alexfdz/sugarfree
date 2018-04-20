@@ -81,7 +81,6 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -1494,6 +1493,33 @@
         <Point>
           <coordinates>
             -2.43342540000003,39.4022402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Heraclio Sánchez, 44</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -16.3164717,28.4841661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>García Ventosa María Del Carmen</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.80952000000002,40.29618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Bresó</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.85911340000007,40.3223561,0
           </coordinates>
         </Point>
       </Placemark>
