@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+        <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -1520,6 +1520,51 @@
         <Point>
           <coordinates>
             -3.85911340000007,40.3223561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sáiz Morán Antonio Jesús</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.69990340000004,40.4088613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Villazón González</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.43416869999999,43.4811847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Charco del Pino</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -16.5936242,28.1113872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juan Carlos Molina Cullell</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.86312369999996,38.9961508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Perez Vergara Vicente Guadarrama</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.092174,40.67338,0
           </coordinates>
         </Point>
       </Placemark>
