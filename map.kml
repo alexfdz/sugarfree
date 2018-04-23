@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+        <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -843,6 +843,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmàcia Gran Vía</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13911031572815922669" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1947712,41.4086363,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
@@ -1191,7 +1201,7 @@
       </Placemark>
       <Placemark>
         <name>Martinez Lopez Jose Enrique</name>
-        <description><![CDATA[Calle San Andrés 2 <br>02153 Carcelén <br>Albacete - Castilla-La Mancha - Spain]]></description>
+        <description><![CDATA[Calle SAN ANDRES, 2 BAJO, 02153 (Carcelén, Albacete)<br>Teléfono: 967403058]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
@@ -1349,15 +1359,6 @@
         <Point>
           <coordinates>
             -7.79918050000003,42.346937,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmàcia Gran Vía</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.19477119999999,41.4086363,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1565,6 +1566,24 @@
         <Point>
           <coordinates>
             -4.092174,40.67338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gutiérrez Pérez C. B.</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.987345600000026,37.6071777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Batres</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9866406,14.6328201,0
           </coordinates>
         </Point>
       </Placemark>
