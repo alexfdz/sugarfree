@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-        <Folder>
+    <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -1584,6 +1584,15 @@
         <Point>
           <coordinates>
             -89.9866406,14.6328201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Ferrer Elcoro Iribe</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.95431889999998,43.312609,0
           </coordinates>
         </Point>
       </Placemark>
