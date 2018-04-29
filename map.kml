@@ -853,27 +853,29 @@
           </coordinates>
         </Point>
       </Placemark>
-    </Folder>
-    <Folder>
-      <name>pharmacies (pending)</name>
       <Placemark>
         <name>Farmacia Petra Aguirre</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2586852033669585144" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            -1.78159419999997,43.3407155,0
+            -1.7815942,43.3407155,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Farmacia Prados García</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4076821170220074845" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            -3.66471590000003,40.4809009,0
+            -3.6647159,40.4809009,0
           </coordinates>
         </Point>
       </Placemark>
+    </Folder>
+    <Folder>
+      <name>pharmacies (pending)</name>
       <Placemark>
         <name>Esteban Lázaro María Asunción</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
@@ -1593,6 +1595,33 @@
         <Point>
           <coordinates>
             -1.95431889999998,43.312609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmàcia Marina Oriol</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.20227669999997,41.4012508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia La Murallita: Ldo. FJ Maquieira Ron</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.28953999999999,36.526617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Javier Fernández Vigil</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.79270280000003,43.6153327,0
           </coordinates>
         </Point>
       </Placemark>
