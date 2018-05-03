@@ -81,7 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+        <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -280,16 +280,6 @@
         <Point>
           <coordinates>
             -6.9870298,38.8675225,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Francia</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=9232218487108251932" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -0.8270442,41.6668683,0
           </coordinates>
         </Point>
       </Placemark>
@@ -873,25 +863,13 @@
           </coordinates>
         </Point>
       </Placemark>
-    </Folder>
-    <Folder>
-      <name>pharmacies (pending)</name>
-      <Placemark>
-        <name>Esteban Lázaro María Asunción</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.7020632,40.4561096,0
-          </coordinates>
-        </Point>
-      </Placemark>
       <Placemark>
         <name>FARMACIA CASTELLANO BOBIA, CARMEN</name>
-        <description><![CDATA[Calle PICASSO, 2, 33001 (Oviedo, Asturias)<br>Tel: 985297444]]></description>
+        <description>Calle PICASSO, 2, 33001 (Oviedo, Asturias) Tel: 985297444</description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            -5.8461669,43.3673506,0
+            -5.8461709,43.3673442,0
           </coordinates>
         </Point>
       </Placemark>
@@ -901,6 +879,27 @@
         <Point>
           <coordinates>
             2.20407850000004,41.4579487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Bresó</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.85911340000007,40.3223561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>pharmacies (pending)</name>
+      <Placemark>
+        <name>Esteban Lázaro María Asunción</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.7020632,40.4561096,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1437,15 +1436,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia CENTRAL de Pinos Puente</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.75017249999996,37.2514762,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmàcia M. Angels Comas Anyé</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
@@ -1514,15 +1504,6 @@
         <Point>
           <coordinates>
             -3.80952000000002,40.29618,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Bresó</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.85911340000007,40.3223561,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1622,6 +1603,24 @@
         <Point>
           <coordinates>
             -5.79270280000003,43.6153327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fraile San José Carlos Gregorio</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.9211582,41.9843446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Francia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.827044200000046,41.6668683,0
           </coordinates>
         </Point>
       </Placemark>
