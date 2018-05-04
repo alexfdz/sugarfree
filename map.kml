@@ -81,7 +81,8 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-        <Folder>
+    
+    <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -1612,15 +1613,6 @@
         <Point>
           <coordinates>
             -5.9211582,41.9843446,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Francia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.827044200000046,41.6668683,0
           </coordinates>
         </Point>
       </Placemark>
