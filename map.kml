@@ -845,16 +845,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Petra Aguirre</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=2586852033669585144" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -1.7815942,43.3407155,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Prados García</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=4076821170220074845" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
@@ -1613,6 +1603,15 @@
         <Point>
           <coordinates>
             -5.9211582,41.9843446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Petra Aguirre</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.78159419999997,43.3407155,0
           </coordinates>
         </Point>
       </Placemark>
