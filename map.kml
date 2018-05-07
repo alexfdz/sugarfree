@@ -81,7 +81,6 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -1612,6 +1611,33 @@
         <Point>
           <coordinates>
             -1.78159419999997,43.3407155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACY Mª CARMEN CARMONA LENDINEZ</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.69464459999995,40.7838538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Olloqui Larumbe</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.6451174,42.8021564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmàcia Basterra Gabarró</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.21176630000002,41.403585,0
           </coordinates>
         </Point>
       </Placemark>
