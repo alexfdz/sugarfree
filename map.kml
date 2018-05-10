@@ -81,6 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -881,12 +882,10 @@
           </coordinates>
         </Point>
       </Placemark>
-    </Folder>
-    <Folder>
-      <name>pharmacies (pending)</name>
       <Placemark>
         <name>Esteban Lázaro María Asunción</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13440375154631139781" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.7020632,40.4561096,0
@@ -895,13 +894,17 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Antonio Rodríguez</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4786792981610844797" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            -8.65802600000006,42.857352,0
+            -8.658026,42.857352,0
           </coordinates>
         </Point>
       </Placemark>
+    </Folder>
+    <Folder>
+      <name>pharmacies (pending)</name>
       <Placemark>
         <name>Laura Mateos Grande</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
@@ -1638,6 +1641,33 @@
         <Point>
           <coordinates>
             2.21176630000002,41.403585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Sánchez Martín</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.82970299999999,36.6299728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Isabel Eguren</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.61106519999998,43.1659594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Beiro Rozas</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.03611999999998,43.0339008,0
           </coordinates>
         </Point>
       </Placemark>
