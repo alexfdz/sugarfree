@@ -81,7 +81,6 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -1668,6 +1667,24 @@
         <Point>
           <coordinates>
             -8.03611999999998,43.0339008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Sarasketa</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.73325699999998,43.221218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gutierrez Artetxe botika</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.73578410000005,43.2210136,0
           </coordinates>
         </Point>
       </Placemark>
