@@ -81,6 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -1703,6 +1704,15 @@
         <Point>
           <coordinates>
             -2.73398950000001,43.2197557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.7289313,43.2169679,0
           </coordinates>
         </Point>
       </Placemark>
