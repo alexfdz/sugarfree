@@ -81,7 +81,6 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -902,6 +901,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmàcia Clanxet Wust, Pilar</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=6175469592762293548" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.2114781,41.4054235,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
@@ -1713,6 +1722,15 @@
         <Point>
           <coordinates>
             -2.7289313,43.2169679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia San Felix 75</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.0366810000000442,39.99043,0
           </coordinates>
         </Point>
       </Placemark>
