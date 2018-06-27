@@ -81,6 +81,7 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -1740,6 +1741,15 @@
         <Point>
           <coordinates>
             -0.433807099999967,38.3959516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Sabina</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.344421000000011,39.473443,0
           </coordinates>
         </Point>
       </Placemark>
