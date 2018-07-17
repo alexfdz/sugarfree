@@ -912,6 +912,25 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmàcia Coliseum</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.1657997,41.3871122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enrique Pascual Ramírez</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7403304313218517482" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -1.6049685,42.0564044,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
@@ -1489,15 +1508,6 @@
         <Point>
           <coordinates>
             -2.43342540000003,39.4022402,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Calle Heraclio Sánchez, 44</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -16.3164717,28.4841661,0
           </coordinates>
         </Point>
       </Placemark>
