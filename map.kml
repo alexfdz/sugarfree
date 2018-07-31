@@ -81,7 +81,6 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -1760,6 +1759,15 @@
         <Point>
           <coordinates>
             -0.344421000000011,39.473443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Ldo. Miguel Angel Fernandez De Bobadilla</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.8178345,42.4145009,0
           </coordinates>
         </Point>
       </Placemark>
