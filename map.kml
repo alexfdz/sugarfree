@@ -930,6 +930,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Fcia María Rosa Romero Ruiz</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2899171637727779816" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1792015,41.3844422,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
