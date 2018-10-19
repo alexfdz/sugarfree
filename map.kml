@@ -912,15 +912,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmàcia Coliseum</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.1657997,41.3871122,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Enrique Pascual Ramírez</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=7403304313218517482" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
@@ -1778,6 +1769,24 @@
         <Point>
           <coordinates>
             -2.8178345,42.4145009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia BARRICARTE</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.899129,41.647194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia SR</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.97578999999996,37.39792,0
           </coordinates>
         </Point>
       </Placemark>
