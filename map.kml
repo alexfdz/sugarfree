@@ -913,7 +913,8 @@
       </Placemark>
       <Placemark>
         <name>Bahnhof-Apotheke</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11618703305310787650" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             11.1431202,47.8424619,0
