@@ -911,6 +911,15 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Bahnhof-Apotheke</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            11.1431202,47.8424619,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>pharmacies (pending)</name>
