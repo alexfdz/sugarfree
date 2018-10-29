@@ -1798,6 +1798,15 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia La Verdellada</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -16.3069716,28.4807775,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
