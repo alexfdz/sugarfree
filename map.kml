@@ -39,48 +39,6 @@
         <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-DB4436-nodesc-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker_disabled.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<div style="font-weight: 500; font-size: medium; margin-bottom: 0em">$[name]</div><div>Pendiente de validaci&oacute;n</div>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker_disabled.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<div style="font-weight: 500; font-size: medium; margin-bottom: 0em">$[name]</div><div>Pendiente de validaci&oacute;n</div>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Folder>
       <name>pharmacies</name>
       <Placemark>
@@ -902,12 +860,31 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Farmacia María Gayo Otero</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2590038315683894598" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.4610092,42.4278242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Enrique Pascual Ramírez</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=7403304313218517482" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -1.6049685,42.0564044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laura Mateos Grande</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.00783780000006,39.156521,0
           </coordinates>
         </Point>
       </Placemark>
@@ -921,48 +898,10 @@
           </coordinates>
         </Point>
       </Placemark>
-    </Folder>
-    <Folder>
-      <name>pharmacies (pending)</name>
-      <Placemark>
-        <name>Laura Mateos Grande</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.00783780000006,39.156521,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Juan José García Gil</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.585637499999962,38.963733,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia María Gayo Otero</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -2.46100920000003,42.4278242,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Pharmacy Orthopedics Chueca</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.69708200000002,40.42213,0
-          </coordinates>
-        </Point>
-      </Placemark>
       <Placemark>
         <name>Farmàcia Manuel Ramos Sierra</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1864659109173903590" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             2.18711659999997,41.424706,0
@@ -971,7 +910,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Mieses 24</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15431473955412009675" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.74154620000002,41.6580519,0
@@ -979,8 +919,19 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Pharmacy Orthopedics Chueca</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=6685888932158914219" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.69708200000002,40.42213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Antonio Sánchez Merino</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4622113924028091952" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.66966409999998,40.9666893,0
@@ -989,7 +940,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Ldo Pablo Ignacio Romero Gómez</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10492456490369225838" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.02583800000002,39.310568,0
@@ -998,7 +950,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Paus, S.C.</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11079984465470543976" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -6.95412320000003,37.2638282,0
@@ -1007,7 +960,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Morales Gordo</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4575562281597054042" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.60028220000004,37.1773579,0
@@ -1016,7 +970,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=16273167052468190954" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.47319779999998,38.6943437,0
@@ -1025,7 +980,8 @@
       </Placemark>
       <Placemark>
         <name>LA FARMACIA DE TEATINOS</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13833186182385618803" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.836591,43.37081,0
@@ -1034,7 +990,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Mesa Padilla</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4504640844781354765" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.86166530000003,37.0481826,0
@@ -1043,7 +1000,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Jesús de la Rubia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4650942196547834177" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.38216899999998,38.761656,0
@@ -1052,7 +1010,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacity</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10332523394282642246" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -58.4526958,-34.5511584,0
@@ -1061,7 +1020,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Cuidamos Su Salud</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9347492299011909731" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.86761030000002,40.3212594,0
@@ -1070,7 +1030,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Farmalisal Alcornoques</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=6156064110105424124" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.8546159,43.4572403,0
@@ -1079,7 +1040,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Oficios Tres Cantos</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7308788046393216846" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.7141689,40.6070427,0
@@ -1088,7 +1050,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia La Estación</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13506881154049793090" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.01046369999995,39.8614499,0
@@ -1097,7 +1060,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Aparici</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=17499230596616675392" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.229356999999936,39.825109,0
@@ -1106,7 +1070,8 @@
       </Placemark>
       <Placemark>
         <name>Sotoca Ruiz Ángeles</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11112308615796837881" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.75410360000001,40.4045823,0
@@ -1115,7 +1080,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1110569365328661255" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.65475049999998,40.5451908,0
@@ -1124,7 +1090,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11229209818700606820" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -8.36863689999996,43.3163312,0
@@ -1133,7 +1100,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Fernández de Vega Chávarri</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13346826608548479361" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.57005800000002,42.598129,0
@@ -1142,7 +1110,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia García Jiménez</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4439412115588756993" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.84439129999998,43.3546409,0
@@ -1151,7 +1120,8 @@
       </Placemark>
       <Placemark>
         <name>Farmàcia Roig</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5218887923285873808" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             1.21278929999994,41.1534471,0
@@ -1160,7 +1130,8 @@
       </Placemark>
       <Placemark>
         <name>FARMACIA Ibáñez C B</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9057642962825906936" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.66388849999998,40.4381174,0
@@ -1168,17 +1139,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Onieva Alcalá</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -4.78227400000003,37.894956,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Alameda</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11145077700434389831" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -7.86574040000005,42.335758,0
@@ -1186,8 +1149,19 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Farmacia Onieva Alcalá</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13169561954271226562" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -4.78227400000003,37.894956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Farmacia Guadalupe Lorca Cobos</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10352157578864072729" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.23790940000004,38.9396266,0
@@ -1196,7 +1170,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Guareña</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=763555719243835739" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.76612390000003,40.388217,0
@@ -1205,7 +1180,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Alonso Vega</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15780316831074165724" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -8.41382199999998,43.359689,0
@@ -1223,17 +1199,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -3.76810599999999,40.6594577,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Vidal Piñeiro</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=18420761846552873981" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -8.40694589999998,43.347669,0
@@ -1242,7 +1210,18 @@
       </Placemark>
       <Placemark>
         <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5364544874510242825" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.76810599999999,40.6594577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11253244300716951277" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.12534489999996,40.4677854,0
@@ -1251,7 +1230,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Monje en Santa Cruz</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8907801769883023668" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -16.2582576,28.4625126,0
@@ -1260,7 +1240,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia África</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15211788347130417800" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -6.27583749999997,36.5125924,0
@@ -1268,17 +1249,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Fernando Martínez</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.803255700000022,40.8319523,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Rosa María Rubio Gabaldón</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1155147090148853660" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.340284300000008,39.5534121,0
@@ -1287,7 +1260,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Alfonso Santa María Blanco</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=16717799061769053259" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.38345100000004,38.761539,0
@@ -1295,8 +1269,19 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Farmacia Fernando Martínez</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5219874893112874408" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.803255700000022,40.8319523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Farmacia Pablo de la Torre</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4089078177221572504" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.05410529999995,38.0390386,0
@@ -1305,7 +1290,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Miguel Ruiz Cuesta</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=14294162131380442323" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.70354959999997,40.5941118,0
@@ -1314,7 +1300,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Lozano Valledor</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8367076859273358557" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.81808739999997,43.4419251,0
@@ -1323,7 +1310,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Coloma</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15287708298540907812" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.130141099999946,38.5775932,0
@@ -1332,7 +1320,8 @@
       </Placemark>
       <Placemark>
         <name>Farmàcia La Múnia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4773892818255374398" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             1.61859000000004,41.3267,0
@@ -1341,7 +1330,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia El Valle</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1332773585906052969" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.49765849999994,37.4112682,0
@@ -1350,7 +1340,8 @@
       </Placemark>
       <Placemark>
         <name><![CDATA[Farmacia "Sanz Díaz de Durana Maieder Asier"]]></name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7682935397007804417" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.67136300000004,42.849433,0
@@ -1359,7 +1350,8 @@
       </Placemark>
       <Placemark>
         <name>FARMACIA LA PAZ (Moisés Ferrández Martínez)</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1046820346019157645" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.87604609999994,41.6240032,0
@@ -1368,7 +1360,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Lcda. Hortensia García Peleteiro</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4892488064987901696" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -7.79918050000003,42.346937,0
@@ -1377,7 +1370,8 @@
       </Placemark>
       <Placemark>
         <name><![CDATA[Farmacia "Navarro Sánchez"]]></name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1759514414320020420" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.68009170000005,42.8759162,0
@@ -1386,7 +1380,8 @@
       </Placemark>
       <Placemark>
         <name>Farmazia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8433066954349536524" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.65910170000006,42.8558145,0
@@ -1395,7 +1390,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Andrea López</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5271606527810770112" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             2.12534170000004,41.3720729,0
@@ -1404,7 +1400,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Palacios</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8283199899386133367" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -1.70125259999998,38.5131245,0
@@ -1413,7 +1410,8 @@
       </Placemark>
       <Placemark>
         <name>Urretavizcaya González M Teresa</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8133945034684283569" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -1.98133510000002,43.3189282,0
@@ -1422,7 +1420,8 @@
       </Placemark>
       <Placemark>
         <name>Carrer del Túria, 57</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?q=Carrer+del+T%C3%BAria,+57,+46008+Val%C3%A8ncia,+Valencia&ftid=0xd604f5aed4f016d:0x84a8632036a2a75b" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.385458400000061,39.4773435,0
@@ -1431,7 +1430,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Fernández García</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1011520753720220682" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.7871136,37.8882673,0
@@ -1440,7 +1440,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Asensi Alcoverro</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=3554740252333909439" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.403155200000015,39.4532334,0
@@ -1449,7 +1450,8 @@
       </Placemark>
       <Placemark>
         <name>Farmàcia M. Angels Comas Anyé</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8269017985044827727" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             2.19205290000002,41.4079254,0
@@ -1458,7 +1460,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Chamorro</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5157105420121444122" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.36831099999995,40.481311,0
@@ -1467,7 +1470,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia On</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=38964701798084983" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.677043700000013,38.2769318,0
@@ -1476,7 +1480,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Puente de Vadillos - Cañizares C.B.</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=12153375816779559645" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.15222670000003,40.5279036,0
@@ -1484,17 +1489,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name><![CDATA[Farmacia "Riarola"]]></name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -2.66343000000006,42.847838,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Revert García Sacristán</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7349034986436422037" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.43342540000003,39.4022402,0
@@ -1502,8 +1499,19 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name><![CDATA[Farmacia "Riarola"]]></name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=12627777470614369787" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.66343000000006,42.847838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>García Ventosa María Del Carmen</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10002310864326213987" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.80952000000002,40.29618,0
@@ -1512,7 +1520,8 @@
       </Placemark>
       <Placemark>
         <name>Sáiz Morán Antonio Jesús</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13501901285230189263" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.69990340000004,40.4088613,0
@@ -1521,7 +1530,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Villazón González</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=3369680109505801043" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.43416869999999,43.4811847,0
@@ -1530,7 +1540,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Charco del Pino</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=655596810399972157" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -16.5936242,28.1113872,0
@@ -1539,7 +1550,8 @@
       </Placemark>
       <Placemark>
         <name>Juan Carlos Molina Cullell</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2270043412924345578" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -1.86312369999996,38.9961508,0
@@ -1548,7 +1560,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Perez Vergara Vicente Guadarrama</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=6741110824603861860" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.092174,40.67338,0
@@ -1556,17 +1569,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Gutiérrez Pérez C. B.</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.987345600000026,37.6071777,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Batres</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2800609449471581809" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -89.9866406,14.6328201,0
@@ -1574,8 +1579,19 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Gutiérrez Pérez C. B.</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=18157501189687010296" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.987345600000026,37.6071777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Farmacia Ferrer Elcoro Iribe</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=3996404171886681293" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -1.95431889999998,43.312609,0
@@ -1584,7 +1600,8 @@
       </Placemark>
       <Placemark>
         <name>Farmàcia Marina Oriol</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15623934576940322431" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             2.20227669999997,41.4012508,0
@@ -1593,7 +1610,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia La Murallita: Ldo. FJ Maquieira Ron</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1735845073840338085" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -6.28953999999999,36.526617,0
@@ -1602,7 +1620,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Javier Fernández Vigil</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7682777908811485843" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.79270280000003,43.6153327,0
@@ -1611,7 +1630,8 @@
       </Placemark>
       <Placemark>
         <name>Fraile San José Carlos Gregorio</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9940730675739562315" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.9211582,41.9843446,0
@@ -1620,7 +1640,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Petra Aguirre</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2586852033669585144" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -1.78159419999997,43.3407155,0
@@ -1629,7 +1650,8 @@
       </Placemark>
       <Placemark>
         <name>PHARMACY Mª CARMEN CARMONA LENDINEZ</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7944183804213657467" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -3.69464459999995,40.7838538,0
@@ -1638,7 +1660,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Olloqui Larumbe</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4089702721529733449" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -1.6451174,42.8021564,0
@@ -1647,7 +1670,8 @@
       </Placemark>
       <Placemark>
         <name>Farmàcia Basterra Gabarró</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9530410387638327124" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             2.21176630000002,41.403585,0
@@ -1656,7 +1680,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Sánchez Martín</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=14868333042779682213" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -4.82970299999999,36.6299728,0
@@ -1665,7 +1690,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Isabel Eguren</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2500487782524981715" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.61106519999998,43.1659594,0
@@ -1674,7 +1700,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Beiro Rozas</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5195163470610726009" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -8.03611999999998,43.0339008,0
@@ -1682,17 +1709,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Sarasketa</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -2.73325699999998,43.221218,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Gutierrez Artetxe botika</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=15099988040408163663" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.73578410000005,43.2210136,0
@@ -1700,8 +1719,19 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Farmacia Sarasketa</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10951803022464794546" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.73325699999998,43.221218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Farmacia Ldo. Marin Magán</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=3873076561826121394" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -6.20836800000006,36.454958,0
@@ -1710,7 +1740,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Goiria Montoya</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=6361622554704193810" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.73398950000001,43.2197557,0
@@ -1719,7 +1750,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11277208735064805815" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.7289313,43.2169679,0
@@ -1728,7 +1760,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia San Felix 75</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10625122919798617761" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.0366810000000442,39.99043,0
@@ -1737,7 +1770,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Constitución</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=3643266673302994733" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.433807099999967,38.3959516,0
@@ -1746,7 +1780,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Sabina</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5201119541776711304" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -0.344421000000011,39.473443,0
@@ -1755,7 +1790,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Ldo. Miguel Angel Fernandez De Bobadilla</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[Mayor, 15 BAJO, 26324, Alesanco (La Rioja)<br>941379140]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.8178345,42.4145009,0
@@ -1763,17 +1799,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia BARRICARTE</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.899129,41.647194,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia SR</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?q=Calle+Arroyo,+105,+41008+Sevilla&ftid=0xd126eac2e503155:0xfd5537e0c7341451" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -5.97578999999996,37.39792,0
@@ -1782,7 +1810,8 @@
       </Placemark>
       <Placemark>
         <name>Farmacia Ledanca</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=1408188145694483020" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -2.84412650000002,40.8681879,0
@@ -1791,7 +1820,8 @@
       </Placemark>
       <Placemark>
         <name>Farmàcia</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10223279603533967538" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             2.15901110000004,41.4009842,0
@@ -1800,10 +1830,41 @@
       </Placemark>
       <Placemark>
         <name>Farmacia La Verdellada</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9904132668875704203" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
             -16.3069716,28.4807775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia y ortopedia ValPharma</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11475086366581758077" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.65384189999997,40.5522383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Juan José García Gil</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=4348730566680596452" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.585637499999962,38.963733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia BARRICARTE</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=16541707004203019991" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.899129000000016,41.647194,0
           </coordinates>
         </Point>
       </Placemark>
