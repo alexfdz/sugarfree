@@ -899,16 +899,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Mieses 24</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=15431473955412009675" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -4.74154620000002,41.6580519,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Pharmacy Orthopedics Chueca</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=6685888932158914219" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
@@ -1858,6 +1848,16 @@
           </coordinates>
         </Point>
       </Placemark>
-    </Folder<name />
+      <Placemark>
+        <name>Farmacia Alberto Cepeda Saez</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11219311943981621882" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -8.3703728,43.3179433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
   </Document>
 </kml>
