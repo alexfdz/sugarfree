@@ -1858,6 +1858,26 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>FARMACIA VENECIA</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13940861431271313364" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -5.928775,37.340959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Bosch de Basea Cuscó</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10995370418883972311" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.1662943,41.3969866,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
