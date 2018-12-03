@@ -39,7 +39,7 @@
         <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Folder>
+        <Folder>
       <name>pharmacies</name>
       <Placemark>
         <name>Farmacia</name>
@@ -1875,6 +1875,16 @@
         <Point>
           <coordinates>
             2.1662943,41.3969866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FARMACIA PRIOR S.C.</name>
+        <description><![CDATA[<a href="https://maps.google.com/?q=Calle+San+Mill%C3%A1n,+19,+26004+Logro%C3%B1o,+La+Rioja&amp;ftid=0xd5aab12c3bb9dc7:0x5583547c72981b42" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.4324287,42.4673907,0
           </coordinates>
         </Point>
       </Placemark>
