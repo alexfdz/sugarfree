@@ -1898,6 +1898,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia ANZOLA CABO</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5759832933292466618" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.6624533,42.83664,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
