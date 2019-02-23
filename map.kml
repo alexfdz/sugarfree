@@ -1908,6 +1908,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia Francisco Javie Puertas Arbizu</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=877223634392791414" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -1.6461853,42.8055238,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
