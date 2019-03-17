@@ -1918,6 +1918,56 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia Alcazarén</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=18125931429473759404" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -4.671828,41.370619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FARMACIA LUIS NORIEGA PINO</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=7871600130536305655" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -4.161704,42.875114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia formentera</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5729667264841514825" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.7457831,38.0863402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia paseo de extremadura 124</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=12873154479920335709" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.735388,40.411272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ana María Palma García</name>
+        <description><![CDATA[<a href="https://maps.google.com/?q=Calle+de+Gaztambide,+23,+28015+Madrid&amp;ftid=0xd4228427f716837:0x4e920ca45c541d8b" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -3.7157697,40.4328741,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
