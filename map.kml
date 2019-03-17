@@ -1968,6 +1968,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia de Fene. María L. Hidalgo Sotelo</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=667131282454883166" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -8.1658761,43.4736992,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
