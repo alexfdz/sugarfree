@@ -1978,6 +1978,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Farmacia García Trigueros</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=9058568941774343319" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -5.9689956,37.3914783,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
