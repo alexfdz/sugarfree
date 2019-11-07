@@ -2,15 +2,15 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>sugar-free</name>
-    <description/> 
+    <description/>
     <Style id="icon-1899-DB4436-normal">
       <IconStyle>
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
@@ -21,9 +21,9 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://www.sugarfree.io/img/sugarfree_marker.png</href>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>1</scale>
@@ -37,6 +37,48 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
@@ -1009,16 +1051,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Farmalisal Alcornoques</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=6156064110105424124" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -3.8546159,43.4572403,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Oficios Tres Cantos</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=7308788046393216846" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
@@ -1559,16 +1591,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Gutiérrez Pérez C. B.</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=18157501189687010296" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -0.987345600000026,37.6071777,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Ferrer Elcoro Iribe</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=3996404171886681293" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
@@ -1745,26 +1767,6 @@
         <Point>
           <coordinates>
             -0.0366810000000442,39.99043,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Constitución</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=3643266673302994733" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -0.433807099999967,38.3959516,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Farmacia Sabina</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=5201119541776711304" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -0.344421000000011,39.473443,0
           </coordinates>
         </Point>
       </Placemark>
@@ -1985,6 +1987,96 @@
         <Point>
           <coordinates>
             -5.9689956,37.3914783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Eli Lasa</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=10012920793475384479" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.0196839,43.26567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia San Giorgio</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13112571308012747779" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            8.575434,45.9361861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Del Monaco</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5417680499098499155" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            16.2956904,41.2254866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Paolo Dr Pasquale</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=13298561937002025787" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            14.6539735,41.5601725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Dott. Giorgio Epifani</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=16786894855339965932" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            13.621156,43.5136891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PARAFARMACIA BARBARO</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=8555014956081836599" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            12.620019,46.0084941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Calandra</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=11278069834736500847" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            7.6980606,45.0912739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Del Mare - Marina di San Nicola</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=2406593564009256014" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            12.1289044,41.9347833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmacia Bernardeau Serra</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=5866127701718469430" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -0.390218,39.443523,0
           </coordinates>
         </Point>
       </Placemark>
