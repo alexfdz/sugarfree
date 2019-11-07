@@ -844,15 +844,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmàcia Lda. Maria Jesús Vela</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.20407850000004,41.4579487,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmacia Bresó</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
@@ -913,10 +904,11 @@
       </Placemark>
       <Placemark>
         <name>Laura Mateos Grande</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=362396122879624954" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
           <coordinates>
-            -3.00783780000006,39.156521,0
+            -3.0078378,39.156521,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2077,6 +2069,16 @@
         <Point>
           <coordinates>
             -0.390218,39.443523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmàcia Lda. Maria Jesús Vela</name>
+        <description><![CDATA[<a href="https://maps.google.com/?cid=17429983250553281797" target="_blank">Google Maps</a>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            2.2040785,41.4579487,0
           </coordinates>
         </Point>
       </Placemark>
