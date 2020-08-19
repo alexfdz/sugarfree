@@ -1611,16 +1611,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Farmacia Olloqui Larumbe</name>
-        <description><![CDATA[<a href="https://maps.google.com/?cid=4089702721529733449" target="_blank">Google Maps</a>]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            -1.6451174,42.8021564,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Farmàcia Basterra Gabarró</name>
         <description><![CDATA[<a href="https://maps.google.com/?cid=9530410387638327124" target="_blank">Google Maps</a>]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
